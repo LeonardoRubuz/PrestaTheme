@@ -1,0 +1,17 @@
+name: "PrestaTheme"
+description: "A custom theme for PrestaShop"
+version: "1.0.0"
+author: "Leonardo Rubuz"
+author_email: "rubuzleonardo@gmail.com"
+#author_website: "https://www.example.com"
+display_name: "Presta Theme"
+compatibility: "1.7.7.x"
+prestashop_version_compliancy: ">=1.7.7.0"
+meta_keywords: "prestashop, theme, custom"
+meta_description: "A custom theme for PrestaShop with modern design."
+dependencies:
+  - module: my_custom_module
+    version: "1.2.0"
+hooks:
+  - displayHeader
+  - displayFooter
